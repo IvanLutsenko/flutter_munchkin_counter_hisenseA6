@@ -5,7 +5,6 @@ import 'package:munchkin_level_counter/data/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:xlive_switch/xlive_switch.dart';
 import 'package:munchkin_level_counter/data/counter_data.dart';
-import 'package:toast/toast.dart';
 
 class SettingsScreen extends StatelessWidget {
   @override

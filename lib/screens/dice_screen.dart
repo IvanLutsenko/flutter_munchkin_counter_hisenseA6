@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:munchkin_level_counter/colors.dart';
 import 'package:munchkin_level_counter/data/app_localizations.dart';
 import 'package:munchkin_level_counter/widgets/dice/dice.dart';
 import 'package:munchkin_level_counter/data/counter_data.dart';

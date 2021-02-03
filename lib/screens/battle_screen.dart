@@ -38,7 +38,7 @@ class BattleScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         SizedBox(
-                          height: MediaQuery.of(context).size.height * 0.12,
+                          height: MediaQuery.of(context).size.height * 0.076, //used to be 0.12
                           width: MediaQuery.of(context).size.width * 0.5,
                           child: Center(
                             child: AutoSizeText(counterData.getBattleDiff().toString(),
@@ -57,7 +57,7 @@ class BattleScreen extends StatelessWidget {
                       children: <Widget>[
                         NeuButton(
                           onPressed: counterData.resetPlayerBattle,
-                          bevel: 6,
+                          //bevel: 6, FIXME: Doesn't build with this line!
                           child: SizedBox(
                             width: MediaQuery.of(context).size.width * 0.3,
                             height: 20,
@@ -73,7 +73,7 @@ class BattleScreen extends StatelessWidget {
                         ),
                         NeuButton(
                           onPressed: counterData.resetMonsterBattle,
-                          bevel: 6,
+                          //bevel: 6, FIXME: Doesn't build with this line!
                           child: SizedBox(
                             width: MediaQuery.of(context).size.width * 0.3,
                             height: 20,
